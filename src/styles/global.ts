@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body, button, input, textarea {
-    font-family: 'Manrope', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 1rem;
   }
