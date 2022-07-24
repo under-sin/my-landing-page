@@ -1,23 +1,43 @@
+import gitHubIcon from "../../assets/github-icon.svg";
+import linkedinIcon from "../../assets/linkedin-icon.svg";
+import twitterIcon from "../../assets/twitter-icon.svg";
+
+import {
+  ButtonHome,
+  HomeContainer,
+  MyInfoContainer,
+  SocialNetworks,
+} from "./styles";
+
 export function Home() {
   return (
-    <>
-      <main>
-        <div>
-          <span>Oi, eu me chamo Anderson Vieira</span>
-          <p>
-            I implement user interface design and solve user problems using web
-            technologies. I have 5 years of making products that solve user
-            problems and implementing responsive website.
+    <HomeContainer>
+      <MyInfoContainer>
+        <div className="wrapperContent">
+          <span>Oi, eu me chamo Anderson</span>
+          <p className="myDescription">
+            Atualmente trabalhando como desenvolvedor front-end, implementando novas
+            funcionalidades e corrigindo bugs usando javascript, html e css. No
+            momento estou estudando Reactjs junto com typescript
           </p>
         </div>
-        <div>
-          <strong>Twitter</strong>
-          <strong>GitHub</strong>
-          <strong>linkedin</strong>
-        </div>
-      </main>
+        <SocialNetworks>
+          <a href="https://twitter.com/anderso01951891" target="_blank">
+            <img src={twitterIcon} title="twitter" />
+          </a>
+          <a href="https://github.com/under-sin" target="_blank">
+            <img src={gitHubIcon} title="github" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anderson-v-nascimento/"
+            target="_blank"
+          >
+            <img src={linkedinIcon} title="linkedin" />
+          </a>
+        </SocialNetworks>
+      </MyInfoContainer>
 
-      <button>Hire me</button>
-    </>
+      <ButtonHome>Fale comigo</ButtonHome>
+    </HomeContainer>
   );
 }

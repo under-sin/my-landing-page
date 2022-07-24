@@ -27,11 +27,14 @@ const bgAnimation = keyframes`
 export const DefaultLayoutContainer = styled.div`
   padding: 0 7rem;
   margin: 0 auto;
-  height: 665px;
+
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;
 
   animation: ${bgAnimation} 10s linear infinite forwards alternate;
-
-  background-size: cover;
 
   display: flex;
   flex-direction: column;

@@ -7,12 +7,14 @@ export const HeaderContainer = styled.header`
 
   nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 5rem;
+    gap: 3rem;
+    flex: 1;
+    max-width: 215.625rem;
 
     a {
-      padding: 2px;
+      padding: 3px;
 
       text-decoration: none;
       font-size: 1rem;
@@ -20,8 +22,8 @@ export const HeaderContainer = styled.header`
       color: ${(props) => props.theme["main-text-color"]};
       cursor: pointer;
 
-      border-top: 2px solid transparent;
-      border-bottom: 2px solid transparent;
+      border-top: 3px solid transparent;
+      border-bottom: 3px solid transparent;
     }
 
     a:hover {
@@ -34,6 +36,7 @@ export const Logo = styled.span`
   font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
+  flex: 3;
 
   a {
     text-decoration: none;
