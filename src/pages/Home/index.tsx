@@ -3,7 +3,7 @@ export function Home() {
     <>
       <main>
         <div>
-          <span>Oi, eu me chamo Anderson</span>
+          <span>Oi, eu me chamo Anderson Vieira</span>
           <p>
             I implement user interface design and solve user problems using web
             technologies. I have 5 years of making products that solve user
