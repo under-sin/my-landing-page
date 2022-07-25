@@ -27,8 +27,9 @@ const bgAnimation = keyframes`
 export const DefaultLayoutContainer = styled.div`
   padding: 0 7rem;
   margin: 0 auto;
+  height: 100vh;
 
-  background: no-repeat bottom center scroll;
+  background: center center no-repeat fixed;
   background-color: black;
   background-position: 30% 45%;
   background-size: cover;
