@@ -1,2 +1,3 @@
 # my-landing-page
-Created with CodeSandbox
+
+![Screenshot](igniteTimer.png)
