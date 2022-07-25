@@ -1,3 +1,3 @@
 # my-landing-page
 
-![Screenshot](igniteTimer.png)
+![Screenshot](screenshot.png)
