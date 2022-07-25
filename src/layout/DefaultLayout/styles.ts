@@ -28,11 +28,13 @@ export const DefaultLayoutContainer = styled.div`
   padding: 0 7rem;
   margin: 0 auto;
 
-  background-repeat: no-repeat;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
+  background: no-repeat bottom center scroll;
+  background-color: black;
+  background-position: 30% 45%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 
   animation: ${bgAnimation} 10s linear infinite forwards alternate;
 

@@ -16,13 +16,13 @@ export const MyInfoContainer = styled.main`
 
     span {
       font-size: 1.5rem;
-      font-family: "Newsreader", serif;
+      font-family: "JetBrains Mono", monospace;
       opacity: 0.65;
     }
 
     .myDescription {
-      font-size: 3.25rem;
-      font-family: "Vollkorn", serif;
+      font-size: 2.4rem;
+      font-family: "JetBrains Mono", monospace;
       line-height: 60px;
     }
   }
@@ -41,6 +41,20 @@ export const SocialNetworks = styled.div`
     text-align: center;
     border-radius: 100%;
     background: ${(props) => props.theme["gray-700"]};
+
+    transition: all ease 0.15s;
+  }
+
+  .twitterIcon:hover {
+    background: #2ea3e3;
+  }
+
+  .githubIcon:hover {
+    background: #1c2128;
+  }
+
+  .linkedinIcon:hover {
+    background: #0b66c3;
   }
 `;
 
@@ -55,4 +69,10 @@ export const ButtonHome = styled.button`
 
   border: 0;
   border-radius: 3.5px;
+
+  transition: all ease 0.15s;
+
+  &:hover {
+    background: ${(props) => props.theme["gray-900"]};
+  }
 `;

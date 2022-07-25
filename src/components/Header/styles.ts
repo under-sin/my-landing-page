@@ -29,6 +29,10 @@ export const HeaderContainer = styled.header`
     a:hover {
       border-bottom-color: ${(props) => props.theme.pupler};
     }
+
+    a.active {
+      color: ${(props) => props.theme.pupler};
+    }
   }
 `;
 

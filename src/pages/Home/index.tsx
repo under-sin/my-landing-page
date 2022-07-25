@@ -16,19 +16,28 @@ export function Home() {
         <div className="wrapperContent">
           <span>Oi, eu me chamo Anderson</span>
           <p className="myDescription">
-            Atualmente trabalhando como desenvolvedor front-end, implementando novas
-            funcionalidades e corrigindo bugs usando javascript, html e css. No
-            momento estou estudando Reactjs junto com typescript
+            Atualmente trabalhando como desenvolvedor front-end, implementando
+            novas funcionalidades e corrigindo bugs usando javascript, html e
+            css. No momento estou estudando Reactjs junto com typescript
           </p>
         </div>
         <SocialNetworks>
-          <a href="https://twitter.com/anderso01951891" target="_blank">
+          <a
+            className="twitterIcon"
+            href="https://twitter.com/anderso01951891"
+            target="_blank"
+          >
             <img src={twitterIcon} title="twitter" />
           </a>
-          <a href="https://github.com/under-sin" target="_blank">
+          <a
+            className="githubIcon"
+            href="https://github.com/under-sin"
+            target="_blank"
+          >
             <img src={gitHubIcon} title="github" />
           </a>
           <a
+            className="linkedinIcon"
             href="https://www.linkedin.com/in/anderson-v-nascimento/"
             target="_blank"
           >
