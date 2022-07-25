@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   * {
     padding: 0;
     margin: 0;
-    boz-sizing: border-box;
+    box-sizing: border-box;
   }
   
   body {
@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   
   body, button, input, textarea {
-    font-family: 'Inter', sans-serif;
+    font-family: 'JetBrains Mono', monospace;
     font-weight: 400;
     font-size: 1rem;
   }
