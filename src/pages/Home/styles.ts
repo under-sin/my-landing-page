@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-  margin-top: 6rem;
+  margin-top: 6vh;
+  overflow-y: auto;
+  overflow-x: hiddem;
+
+  padding: 0 0.25rem;
 `;
 
 export const MyInfoContainer = styled.main`

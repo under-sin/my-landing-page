@@ -25,10 +25,11 @@ const bgAnimation = keyframes`
 
 //background-image: url(${bgAnimation05});
 export const DefaultLayoutContainer = styled.div`
-  padding: 0 7rem;
+  padding: 0 7vw;
   margin: 0 auto;
+  height: 100vh;
 
-  background: no-repeat bottom center scroll;
+  background: center center no-repeat scroll;
   background-color: black;
   background-position: 30% 45%;
   background-size: cover;
