@@ -5,6 +5,31 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
+    &::-webkit-scrollbar {
+      display: block;
+      width: 4px;
+    }
+        
+    &::-webkit-scrollbar-thumb {
+      background: ${(props) => props.theme["gray-700"]};
+      border-radius: 5px;
+      height: 10px;
+    }
+    
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    
+    &::-webkit-scrollbar-track-piece:end {
+        background: transparent;
+        margin-bottom: 5rem; 
+    }
+
+    &::-webkit-scrollbar-track-piece:start {
+        background: transparent;
+        margin-top: 5rem;
+    }
   }
   
   body {
